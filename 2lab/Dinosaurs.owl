@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#"
+     xml:base="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25"
+     xmlns:db="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Extinction_period -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Extinction_period">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Dinosaur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Extinction_period"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Method_of_reproduction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Method_of_reproduction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Dinosaur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Reproduction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Status -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Status">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Dinosaur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Status_Of_Dino"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ankylosaurus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ankylosaurus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Thyrophores"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Bird -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Bird">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Theropod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cerapods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cerapods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Dinosaur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ceratops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ceratops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Marginocephalic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Dinosaur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Dinosaur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Living-Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Extinction_period -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Extinction_period"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Living-Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Living-Entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Marginocephalic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Marginocephalic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cerapods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Non-avian_theropod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Non-avian_theropod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Theropod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ornithopods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ornithopods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cerapods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Pachycephalosaurus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Pachycephalosaurus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Marginocephalic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Prosauropods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Prosauropods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Sauropodomorphs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Reproduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Reproduction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Sauropodomorphs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Sauropodomorphs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Dinosaur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Sauropods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Sauropods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Sauropodomorphs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Status_Of_Dino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Status_Of_Dino"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Stegosaurus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Stegosaurus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Thyrophores"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Theropod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Theropod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Dinosaur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Thyrophores -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Thyrophores">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Dinosaur"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Alaskacephalus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Alaskacephalus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Pachycephalosaurus"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Alive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Alive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Status_Of_Dino"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Brachiosaurus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Brachiosaurus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Sauropods"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Camarasaurus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Camarasaurus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Sauropods"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Camptosaurus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Camptosaurus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ornithopods"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Extinction_period"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Crow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Crow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Bird"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Alive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Status_Of_Dino"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Eueosaurus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Eueosaurus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ornithopods"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Gastonia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Gastonia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ankylosaurus"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Goyocephalus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Goyocephalus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Pachycephalosaurus"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Reproduction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Massospondil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Massospondil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Prosauropods"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Medusaceratops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Medusaceratops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ceratops"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Nasutoceratops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Nasutoceratops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ceratops"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Pigeon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Pigeon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Bird"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Alive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ryohasaurus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ryohasaurus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Prosauropods"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Shamosaurus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Shamosaurus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Ankylosaurus"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Stegosaurus_Armatus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Stegosaurus_Armatus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Stegosaurus"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Stegosaurus_Stenops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Stegosaurus_Stenops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Stegosaurus"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Tyrannosaurus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Tyrannosaurus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Non-avian_theropod"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Velociraptor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Velociraptor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Non-avian_theropod"/>
+        <Extinction_period rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Cretaceous_period"/>
+        <Method_of_reproduction rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Laying_eggs"/>
+        <Status rdf:resource="http://www.semanticweb.org/acer/ontologies/2021/1/untitled-ontology-25#Died_out"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
